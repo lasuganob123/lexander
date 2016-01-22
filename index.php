@@ -5,7 +5,15 @@
                 <br>
                 <p class="second-line">and I'm a Web Developer!</p>
                 <br>
-                <button type="button" class="btn btn-danger btn-lg">About Me  <i class="fa fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-danger btn-lg">About Me  <i class="fa fa-arrow-right"></i></button>>
+                
+                <div id="contacts">
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                </div>
             </div>
 
             <div id="welcome">
