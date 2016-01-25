@@ -11,7 +11,7 @@ body {
 /** Header **/
 #head-content {
     position: fixed;
-    height: 100px;
+    height: 150px;
     width: 100%;
     padding: 10px 20px;
     background-color: rgba(71, 54, 62, 0.5);
@@ -22,9 +22,12 @@ body {
     display:table-cell; 
     vertical-align:middle; 
     text-align:center;
+    margin: auto;
+    width: 200px;
 }
 #head-menu {
     text-align: center;
+    margin-top: 2%;
 }
 #head-space {
     height: 120px;
@@ -47,7 +50,7 @@ body {
 }
 #head-menu ul li a {
     font-family: Calibri;
-    font-size: x-large;
+    font-size: large;
     color: #D6D6E4;
     text-decoration: none;
 }
@@ -57,15 +60,16 @@ body {
 /** Content **/
 
 #heading {
-    margin-top: 3%;
-    width: 70%;
+    margin-top: 10%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid rgba(255,255,255, 0.8);
     box-sizing: border-box;
-    padding: 100px;
+    padding: 40px 100px;
     font-family: Calibri;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #heading .first-line {
     font-size: 50px;
@@ -91,6 +95,9 @@ body {
     font-size: 40px;
     margin-right: 3%;
 }
+#heading #contacts a:link {
+    color: #928887;
+}
 #welcome {
     margin-top: 5%;
     background-color: rgba(255,255,255, 0.9);
@@ -100,7 +107,9 @@ body {
     font-style: italic;
 }
 #techniques {
-    background-color: #ECECED;
+    background-image: url(../img/background4.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
     padding: 100px 20px;
     border-top: 5px dashed #333;
 }
@@ -137,5 +146,28 @@ body {
     border-radius: 10px;
     margin-top: 5%;
 }
+#techniques .row {
+    margin-top: 2%;
+}
 
 /** End Content **/
+
+/** Footer **/
+footer.foot {
+    background-color: #543F3F;
+    padding: 5px 30px;
+}
+footer .sitemap {
+    text-align: center;
+}
+footer ul li {
+    display: inline-flex;
+    padding: 1% 3%;
+}
+footer ul li:link {
+    color: #000;
+}
+footer .acknowledge {
+    text-align: center;
+}
+/** End Footer **/

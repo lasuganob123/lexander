@@ -20,7 +20,7 @@
             <!-- Header Part -->
             <header id="head-content">
                 <div id="logo">
-                    <img src="#" alt="Logo"/>
+                    <img src="img/logo1.png" alt="Logo"/>
                 </div>
                 <div id="head-menu">
                     <ul>
