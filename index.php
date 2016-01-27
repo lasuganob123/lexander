@@ -30,7 +30,7 @@
                 <h1>What I know already</h1>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="tech-inside">
                                 <p class="h3 tech-title">HTML/CSS</p>
                                 <img src="img/html-css.png">
@@ -39,7 +39,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="tech-inside">
                                 <p class="h3 tech-title">JavaScript</p>
                                 <img src="img/java.png">
@@ -48,7 +48,16 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
+                            <div class="tech-inside">
+                                <p class="h3 tech-title">jQuery</p>
+                                <img src="img/jq.png">
+                                <p class="tech-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
                             <div class="tech-inside">
                                 <p class="h3 tech-title">PHP</p>
                                 <img src="img/php1.png">
@@ -59,16 +68,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <div class="tech-inside">
-                                <p class="h3 tech-title">jQuery</p>
-                                <img src="img/jq.png">
-                                <p class="tech-desc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="tech-inside">
                                 <p class="h3 tech-title">Bootstrap</p>
                                 <img src="img/boot.png">
@@ -77,10 +77,28 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="tech-inside">
                                 <p class="h3 tech-title">Wordpress</p>
                                 <img src="img/wp.png">
+                                <p class="tech-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="tech-inside">
+                                <p class="h3 tech-title">Ajax</p>
+                                <img src="img/ajax.png">
+                                <p class="tech-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="tech-inside">
+                                <p class="h3 tech-title">FuelPHP</p>
+                                <img src="img/fuelphp.png">
                                 <p class="tech-desc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>

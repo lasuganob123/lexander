@@ -1,16 +1,25 @@
 $(function() {
     //change header opacity
-    var lastScrollTop = 0;
-    $(window).scroll(function(event){
-       var st = $(this).scrollTop();
-        var heading = $("#head-content");
-       if (st > lastScrollTop){
-           heading.animate({
-               backgroundColor: "rgba(71, 54, 62, 0.9)",
-               padding: "15px 25px"
-           });
-       }
-       lastScrollTop = st;
+    $(function() {
+        var $win = $(window);
+        $win.scroll(function () {
+            if ($win.scrollTop() == 0) {
+                $('header').attr('style', 'background-color: rgba(71, 54, 62, 0.5) !important');
+            }else if($win.scrollTop() > 0) {
+                $('header').attr('style', 'background-color: rgb(71, 54, 62) !important; box-shadow: none;');
+            } 
+        });        
+    });
+    
+    //expandable divisions 
+    
+    var techInside = $('div.tech-inside');
+    var techDesc = $('p.tech-desc');
+    
+    techDesc.hide();
+    
+    techInside.mouseover(function() {
+        $(this).find('p.tech-desc').slideToggle(500);
     });
     
 });

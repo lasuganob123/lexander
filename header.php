@@ -19,24 +19,28 @@
         <div id="wrapper">
             <!-- Header Part -->
             <header id="head-content">
-                <div id="logo">
-                    <img src="img/logo1.png" alt="Logo"/>
-                </div>
-                <div id="head-menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Experiences</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Gallery</a></li>
-                    </ul>
-                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div id="logo">
+                                <img src="img/logo1.png" alt="Logo"/>
+                            </div>
+                        </div>
+                        <div class="col-xs-4"></div>
+                        <div class="col-xs-5">
+                            <div class="container" id="head-menu">
+                               <div class="col-xs-3"><a href="#">About</a></div>
+                               <div class="col-xs-3"><a href="#">Skills</a></div>
+                               <div class="col-xs-3"><a href="#">Experiences</a></div>
+                               <div class="col-xs-3"><a href="#">Gallery</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
             </header>
             <div id="head-space">
             </div>
             
             <!-- Content Part -->
             <div id="main-content">
-            
            
