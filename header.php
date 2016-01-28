@@ -26,8 +26,8 @@
                                 <img src="img/logo1.png" alt="Logo"/>
                             </div>
                         </div>
-                        <div class="col-xs-4"></div>
-                        <div class="col-xs-5">
+                        <div class="col-xs-3"></div>
+                        <div class="col-xs-6">
                             <div class="container" id="head-menu">
                                <div class="col-xs-3"><a href="#">About</a></div>
                                <div class="col-xs-3"><a href="#">Skills</a></div>

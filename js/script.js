@@ -14,12 +14,11 @@ $(function() {
     //expandable divisions 
     
     var techInside = $('div.tech-inside');
-    var techDesc = $('p.tech-desc');
     
-    techDesc.hide();
+    $('div.contain-desc').hide();
     
-    techInside.mouseover(function() {
-        $(this).find('p.tech-desc').slideToggle(500);
+    techInside.click(
+    function() {
+       $(this).find('div.contain-desc').slideToggle("slow"); 
     });
-    
 });
